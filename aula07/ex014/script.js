@@ -7,6 +7,7 @@ function verificar() {
     if (fAno.value.length == 0 || fAno.value > ano ) {
         window.alert("[ERRO] Verifique os dados e tente novamente.")
     } else {
-        
+        var fsex = document.getElementsByName('radsex')
+        var idade = ano - Number(fAno.value)
     }
 }
