@@ -11,11 +11,12 @@ function contar() {
         var i = Number(inicio.value)
         var f = Number(fim.value)
         var p = Number(passos.value)
-
-        for(var c = i; c <= f; c += p) {
-            res.innerHTML += `${c} \u{1F449}`
-        }
-
-        res.innerHTML += `\u{1F3C1}`
+            if( i < f ) {
+                for(var c = i; c <= f; c += p) {
+                    res.innerHTML += `${c} \u{1F449}`
+        }  
+            }
+  
+            res.innerHTML += `\u{1F3C1}`
     }
 }
