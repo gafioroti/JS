@@ -4,4 +4,4 @@ num.push(2)
 num.sort()
 
 
-console.log(num)
+console.log(num) 
